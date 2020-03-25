@@ -1,5 +1,6 @@
 # COVID-ClusteredSimulation
 SImulation of dissease spreading with clustered connections
+
 Proposed simulation extends standard SIR model, adding typical reasons for population mobility and movement. 
 Simulation granularity is therefore extended and the modeling on the level of connections inside and inter city is implemented.
 The small dense clusters representing families and larger representing working spaces are present and can be described by an 
