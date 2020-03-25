@@ -4,8 +4,7 @@ SImulation of dissease spreading with clustered connections
 Proposed simulation extends standard SIR model, adding typical reasons for population mobility and movement. 
 Simulation granularity is therefore extended and the modeling on the level of connections inside and inter city is implemented.
 The small dense clusters representing families and larger representing working spaces are present and can be described by an 
-integer parameter. It is possible to observe the impact of closing small larger bussineses or completely blocking random 
-connections. The modularity of the code allows adding of new connection types and seeing the results.
+integer parameter. It is possible to observe the impact of closing small or larger bussineses. It is even possible to completely block random connections. The modularity of the code allows adding a new types of connections and observing the impact it has on the evolution of the disease.
 
 People are represented by the vector containing integer number for every person living in the country. Value greater than zero means the individual is infected, the value itself represent the time until recovery. Contact between people is modeled by a sparse matrix containing every possible connection fo two individuals in the country. The diagonal represents the contact of a person with himself. Matrix elements close to the diagonal represent the people near where an individual lives. 
 
