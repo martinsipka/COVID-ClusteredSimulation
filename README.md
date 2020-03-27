@@ -33,7 +33,7 @@ Tht model contains three basic fittable parameters and others that can be inferr
  
 When the random parameters CC and RC are set high the model behaves as the standard SIR model. When there are measuser in place, reducing the random contact of the population the mobility is no longer random and model shows slower increase in the number of infected even when the companies remain open. Since the people tent to be clustered, the connections are largely static and the dissease does not spread that fast. Just think about how many new people you meet these days. 
  
-The results of simple simulations can be seen in the Medium article. The importance of reducing random connections is shown there. 
+The results of simple simulations can be seen in the [Medium article](https://medium.com/@martinsipka/neh%C4%BEadajte-najlep%C5%A1%C3%AD-%C5%A5ah-h%C4%BEadajte-uskuto%C4%8Dnite%C4%BEn%C3%BD-pl%C3%A1n-4a04a417d2e2). The importance of reducing random connections is shown there. 
  
 The model is by no means complete and the furher contributions are encouraged. It could use more precise data for example:
 
